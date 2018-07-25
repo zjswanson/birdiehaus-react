@@ -1,0 +1,29 @@
+.hero-container {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-container .screen{
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(0,0,0,.7);
+}
+
+.hero-container img {
+  width: 120%;
+}
+
+.hero-container .hero-text-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  color: white;
+}
